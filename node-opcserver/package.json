@@ -1,0 +1,22 @@
+{
+  "name": "opcserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .dist/server.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Julian Lenzenweger",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.0.2",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.4.1",
+    "node-opcua": "^2.130.0",
+    "typescript": "^5.5.4"
+  }
+}
